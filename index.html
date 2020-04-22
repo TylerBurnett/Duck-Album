@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Jquery import-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Palanquin|Raleway&display=swap" rel="stylesheet">
+    <!--Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!-- Style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Main -->
+    <script src="js/main.js"></script>
+    
+
+    <title>Assignment 1 - Tyler</title>
+</head>
+
+<body>
+    <header>
+        <h1>My photo album</h1>
+    </header>
+
+    <div id="modal-container">
+        <!-- The Close Button -->
+        <span id="modal-close">&times;</span>
+
+        <div id="modal-content">
+            <!-- Modal Content (The Image) -->
+            <img id="modal-img">
+            <!-- Modal Comments -->
+            <div id="modal-comments">
+                <h1 id="modal-caption"></h1>
+                <hr>
+                <span id="modal-info-container">
+                    <h2 id="modal-comments-heading"></h2>
+                    <h2 id="modal-favorites"></h2>
+                </span>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+
+        <span id="navbar">
+            <h1>Catagories</h1>
+            <hr>
+            <div id="catagory-container">
+                <button id="general-ducks" class="catagory-tag"><i class="far fa-images"></i>General</button>
+                <button id="mallard-ducks" class="catagory-tag"><i class="far fa-images"></i>Mallard</button>
+                <button id="canvas-ducks" class="catagory-tag"><i class="far fa-images"></i>Canvas Back </button>
+                <button id="domestic-ducks" class="catagory-tag"><i class="far fa-images"></i>Domestic</button>
+                <button id="fulvous-duck" class="catagory-tag"><i class="far fa-images"></i>Fulvous</button>
+            </div>
+        </span>
+
+        <span id="album-container">
+            <span id="recently-viewed"></span>
+            <div id="img-album"></div>
+        </span>
+
+    </div>
+    <footer>
+        <p>
+            By Tyler Burnett
+        </p>
+    </footer>
+</body>
+
+</html>
